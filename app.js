@@ -51,4 +51,4 @@ const concesionaria = {
     },
     autosQuePuedeComprar : function(persona){return this.autosParaLaVenta().filter( auto => this.puedeComprar(auto, persona));
     }
-}
+};
